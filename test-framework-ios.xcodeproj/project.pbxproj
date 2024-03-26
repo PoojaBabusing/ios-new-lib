@@ -11,6 +11,7 @@
 		E8A119D42BABFF5000633FE5 /* test_framework_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8A119C92BABFF4F00633FE5 /* test_framework_ios.framework */; };
 		E8A119D92BABFF5000633FE5 /* test_framework_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A119D82BABFF5000633FE5 /* test_framework_iosTests.swift */; };
 		E8A119DA2BABFF5000633FE5 /* test_framework_ios.h in Headers */ = {isa = PBXBuildFile; fileRef = E8A119CC2BABFF4F00633FE5 /* test_framework_ios.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8A119E82BAC00E100633FE5 /* lib.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A119E72BAC00E100633FE5 /* lib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		E8A119CD2BABFF4F00633FE5 /* test_framework_ios.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = test_framework_ios.docc; sourceTree = "<group>"; };
 		E8A119D32BABFF5000633FE5 /* test-framework-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "test-framework-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8A119D82BABFF5000633FE5 /* test_framework_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_framework_iosTests.swift; sourceTree = "<group>"; };
+		E8A119E72BAC00E100633FE5 /* lib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lib.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		E8A119CB2BABFF4F00633FE5 /* test-framework-ios */ = {
 			isa = PBXGroup;
 			children = (
+				E8A119E72BAC00E100633FE5 /* lib.swift */,
 				E8A119CC2BABFF4F00633FE5 /* test_framework_ios.h */,
 				E8A119CD2BABFF4F00633FE5 /* test_framework_ios.docc */,
 			);
@@ -195,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8A119CE2BABFF4F00633FE5 /* test_framework_ios.docc in Sources */,
+				E8A119E82BAC00E100633FE5 /* lib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +411,7 @@
 		E8A119E12BABFF5000633FE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4KMRTJ75B9;
@@ -423,6 +428,7 @@
 		E8A119E22BABFF5000633FE5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4KMRTJ75B9;
